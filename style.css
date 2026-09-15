@@ -1,0 +1,50 @@
+nav{
+    background-color: rgb(112, 15, 15);
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 0 auto;
+    margin: 0 auto;
+
+}
+
+.titulo{
+    color: rgb(250, 250, 250);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.menu-links{
+    display: flex;
+    gap: 24px;
+    list-style: none;
+}
+
+.menu-links a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.menu-links a:hover{
+    color: rgb(87, 8, 21);
+}
+
+.hero{
+    background-color: rgb(211, 39, 39);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 100px 24px;
+}
+
+.hero h1{
+    font-size: 2.5rem;
+    margin-bottom: 16px;
+}
+
+.hero p{
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto 32px auto;
+    color: black;
+}
